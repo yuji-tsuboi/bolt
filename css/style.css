@@ -1,17 +1,20 @@
 @charset "UTF-8";
 
-/* header */
+
+@media screen and (min-width:1100px) {
+  /* pc用のcss */
+
+  /* header */
 
 .inner {
-  width: 1100px;
+  width: 1200px;
   margin: 0 auto;
 }
 
 .header {
   background-color: #fff;
-}
-
-.fa-bolt {
+  position: fixed;
+  width: 100%;
   padding: 15px 0;
 }
 
@@ -21,7 +24,6 @@
   padding: 14px 12px;
   background-color: #74cfae;
   color: #fff;
-  margin-top: 12px;
   transition: 0.3s;
   text-decoration: none;
 }
@@ -41,7 +43,7 @@
 .green_title {
   font-size: 90px;
   font-weight: 700;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
   color: #74cfae;
 }
 
@@ -57,10 +59,13 @@
   text-align: center;
 }
 
+.green_box-inner {
+  padding-top: 50px;
+}
+
 .iphone {
   float: left;
   width: 450px;
-  padding-top: 50px;
 }
 
 .heading-container {
@@ -71,7 +76,7 @@
 
 .green_box_heading {
   font-size: 24px;
-  padding: 70px 0 35px 0;
+  margin-bottom: 35px;
   font-family: "Raleway",sans-serif;
 }
 
@@ -94,9 +99,13 @@
   text-align: center;
 }
 
+.content-inner {
+  padding: 60px 0 70px 0;
+}
+
 .content_title {
   font-size: 24px;
-  padding: 60px 0 40px 0;
+  padding-bottom: 40px;
   color: #333;
   font-family: "Raleway",sans-serif;
 }
@@ -122,7 +131,7 @@
   width: 700px;
   font-size: 20px;
   line-height: 30px;
-  padding: 10px 90px 70px 200px;
+  padding: 10px 90px 0 200px;
 }
 
 .email_button {
@@ -150,9 +159,13 @@
   text-align: center;
 }
 
+.circle-inner {
+  padding: 70px 0 100px 0;
+}
+
 .circle_title {
   color: #fff;
-  padding: 70px 0;
+  margin-bottom: 70px;
   font-size: 24px;
 }
 
@@ -162,18 +175,18 @@
 }
 
 .circle_icon_box {
-  padding-right: 180px;
+  margin-right: 180px;
   float: left;
 }
 
 .circle_icon_box:last-child {
-  padding-right: 0;
+  margin-right: 0;
 }
 
 .circle_name {
   color: #fff;
   font-size: 16px;
-  padding: 10px 0 100px 0;
+  margin-top: 10px;
 }
 
 /* sns */
@@ -183,12 +196,14 @@
   text-align: center;
 }
 
+.sns-inner {
+  padding: 200px 0;
+}
+
 .sns_icon {
   color: #74cfae;
   width: 185px;
   height: 90px;
-  margin: 200px 0;
-  padding-top: 20px;
   transition: 0.3s;
 }
 
@@ -207,4 +222,18 @@
   color: #fff;
   text-align: right;
   padding: 20px 90px 25px 0;
+}
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  /* tab用のcss */
+ 
+}
+  
+  
+
+@media screen and (max-width: 767px) {
+  /* sp用のcss */
+
 }
