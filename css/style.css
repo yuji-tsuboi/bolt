@@ -1,19 +1,17 @@
 @charset "UTF-8";
 
-
-@media screen and (min-width:1100px) {
-  /* pc用のcss */
-
-  /* header */
+/* header */
 
 .inner {
-  width: 1200px;
+  width: 1100px;
   margin: 0 auto;
 }
 
 .header {
   background-color: #fff;
   position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
   padding: 15px 0;
 }
@@ -36,7 +34,7 @@
 
 .title {
   background-color: #f2f2f2;
-  padding: 250px 0;
+  padding: 320px 0 250px 0;
   text-align: center;
 }
 
@@ -105,7 +103,7 @@
 
 .content_title {
   font-size: 24px;
-  padding-bottom: 40px;
+  margin-bottom: 40px;
   color: #333;
   font-family: "Raleway",sans-serif;
 }
@@ -131,12 +129,12 @@
   width: 700px;
   font-size: 20px;
   line-height: 30px;
-  padding: 10px 90px 0 200px;
+  margin: 10px 90px 0 200px;
 }
 
 .email_button {
   float: left;
-  padding-top: 20px;
+  margin-top: 20px;
   text-decoration: none;
 }
 
@@ -203,8 +201,8 @@
 .sns_icon {
   color: #74cfae;
   width: 185px;
-  height: 90px;
   transition: 0.3s;
+  padding: 20px 0 20px 0;
 }
 
 .sns_icon:hover {
@@ -222,18 +220,4 @@
   color: #fff;
   text-align: right;
   padding: 20px 90px 25px 0;
-}
-
-}
-
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  /* tab用のcss */
- 
-}
-  
-  
-
-@media screen and (max-width: 767px) {
-  /* sp用のcss */
-
 }
