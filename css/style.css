@@ -120,27 +120,32 @@
 
 .content_img {
   float: left;
-  margin: 80px 0 0 100px;
   opacity: 0.7;
   transition: 0.3s;
 }
 
-.content_img:nth-child(1) {
-  margin-left: 0;
-  margin-top: 0;
-}
-
-.content_img:nth-child(4) {
-  margin-left: 0;
-}
-
 .content_img:nth-child(2) {
-  margin-top: 0;
+  margin-left: 100px;
 }
 
 .content_img:nth-child(3) {
-  margin-top: 0;
+  margin-left: 100px;
 }
+
+.content_img:nth-child(4) {
+  margin-top: 80px;
+}
+
+.content_img:nth-child(5) {
+  margin-left: 100px;
+  margin-top: 80px;
+}
+
+.content_img:nth-child(6) {
+  margin-left: 100px;
+  margin-top: 80px;
+}
+
 
 .content_img:hover {
   opacity: 1;
