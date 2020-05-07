@@ -9,20 +9,6 @@
     width: 1100px;
   }
 
-  .contact_button {
-    float: right;
-    font-size: 12px;
-    padding: 14px 12px;
-    background-color: #74cfae;
-    color: #fff;
-    transition: 0.3s;
-    text-decoration: none;
-  }
-
-  .contact_button:hover {
-    color: #333;
-  }
-
   /* title */
 
   .main {
@@ -30,24 +16,16 @@
   }
 
   .title {
-    background-color: #f2f2f2;
     padding: 250px 0 250px 0;
-    text-align: center;
   }
 
   .green_title {
     font-size: 90px;
-    font-weight: 700;
-    margin-bottom: 20px;
-    color: #74cfae;
-    font-family: "Raleway",sans-serif;
   }
 
   /* green_box */
 
   .green_box {
-    background-color: hsl(158, 49%, 63%);
-    text-align: center;
     padding-top: 50px;
   }
 
@@ -59,22 +37,13 @@
   .heading-container {
     float: right;
     width: 650px;
-    color: #fff;
   }
 
   .green_box_heading {
-    font-size: 24px;
     margin-bottom: 35px;
-    font-family: "Raleway",sans-serif;
   }
 
   /* content */
-
-  .content {
-    background-color: #f2f2f2;
-    text-align: center;
-    padding: 60px 0 70px 0;
-  }
 
   .content_img_box {
     margin-bottom: 90px;
@@ -82,8 +51,6 @@
 
   .content_img {
     float: left;
-    opacity: 0.7;
-    transition: 0.3s;
     margin-left: 100px;
   }
 
@@ -96,24 +63,19 @@
   }
 
   .content_text {
-    color: #333;
     float: left;
     width: 700px;
-    font-size: 20px;
-    line-height: 30px;
     margin: 0 90px 0 200px;
   }
 
   .email_button {
     float: left;
-    text-decoration: none;
   }
 
   /* circle */
 
   .circle_icon {
-    width: 1040px;
-    margin: 0 auto;
+    width: 1028px;
   }
 
   .circle_icon_box {
@@ -128,15 +90,15 @@
   /* sns */
 
   .sns {
-    background-color: #f2f2f2;
-    text-align: center;
     padding: 200px 0;
   }
 
+  .sns_inner {
+    width: 740px;
+  }
+
   .sns_icon {
-    color: #74cfae;
     width: 185px;
-    transition: 0.3s;
     padding: 20px 0 20px 0;
   }
 
@@ -147,126 +109,82 @@
   /* header */
 
   .inner {
-  width: 97%;
-  }
-
-  .contact_button {
-  float: right;
-  font-size: 12px;
-  padding: 14px 12px;
-  background-color: #74cfae;
-  color: #fff;
-  transition: 0.3s;
-  text-decoration: none;
-  }
-
-  .contact_button:hover {
-  color: #333;
+    width: 97%;
   }
 
   /* title */
 
   .main {
-  padding-top: 70px;
+    padding-top: 70px;
   }
 
   .title {
-  background-color: #f2f2f2;
-  padding: 250px 0 250px 0;
-  text-align: center;
+    padding: 250px 0 250px 0;
   }
 
   .green_title {
-  font-size: 90px;
-  font-weight: 700;
-  margin-bottom: 20px;
-  color: #74cfae;
-  font-family: "Raleway",sans-serif;
+    font-size: 90px;
   }
 
   /* green_box */
 
   .green_box {
-  background-color: hsl(158, 49%, 63%);
-  text-align: center;
   padding: 50px 0 25px 0;
   }
 
-  .heading-container {
-  color: #fff;
-  }
-
   .green_box_heading {
-  font-size: 24px;
-  margin: 20px 0 35px 0;
-  font-family: "Raleway",sans-serif;
+    margin: 20px 0 35px 0;
   }
 
   /* content */
 
-  .content {
-  background-color: #f2f2f2;
-  text-align: center;
-  padding: 60px 0 70px 0;
-  }
-
   .content_img {
-  opacity: 0.7;
-  transition: 0.3s;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  width: 300px;
-  height: 300px;
-  margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
   }
 
   .content_img:nth-of-type(3n) {
-  margin-bottom: 80px;
+    margin-bottom: 80px;
   }
 
   .content_text {
-  color: #333;
-  font-size: 20px;
-  line-height: 30px;
-  margin-bottom: 40px;
+    margin-bottom: 40px;
   }
 
   .email_button {
-  text-decoration: none;
-  width: 120px;
-  display: block;
-  margin: 0 auto;
+    width: 120px;
+    display: block;
+    margin: 0 auto;
   }
 
   /* circle */
 
-  .circle_icon {
-  margin: 0 auto;
-  }
-
   .circle_icon_box {
-  margin-bottom: 88px;
+    margin-bottom: 88px;
   }
 
   .circle_icon_box:last-child {
-  margin-bottom: 0;
+    margin-bottom: 0;
   }
 
   /* sns */
 
   .sns {
-  background-color: #f2f2f2;
-  text-align: center;
-  padding: 200px 0;
+    padding: 200px 0;
+  }
+
+  .sns-inner {
+    width: 740px;
   }
 
   .sns_icon {
-  color: #74cfae;
-  width: 185px;
-  transition: 0.3s;
-  padding: 20px 0 20px 0;
-  float: left;
+    width: 185px;
+    padding: 20px 0 20px 0;
+    float: left;
   }
 
 }
@@ -277,135 +195,106 @@
   /* header */
 
   .inner {
-  width: 97%;
+    width: 97%;
   }
 
   .contact_button {
-  display: none;
+    display: none;
   }
 
   .humberger_button {
-  float: right;
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
+    float: right;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
   }
 
   .humberger_line {
-  background-color: #ddd;
-  margin-bottom: 5px;
-  width: 24px;
-  height: 2px;
+    background-color: #ddd;
+    margin-bottom: 5px;
+    width: 24px;
+    height: 2px;
   }
 
   .humberger_line:last-child {
-  margin-bottom: 0;
-  }
-
-  .contact_button:hover {
-  color: #333;
+    margin-bottom: 0;
   }
 
   /* title */
 
   .main {
-  padding-top: 68px;
+    padding-top: 68px;
   }
 
   .title {
-  background-color: #f2f2f2;
-  padding: 160px 0 130px 0;
-  text-align: center;
+    padding: 160px 0 130px 0;
   }
 
   .green_title {
-  font-size: 80px;
-  font-weight: 700;
-  margin-bottom: 20px;
-  color: #74cfae;
-  font-family: "Raleway",sans-serif;
+    font-size: 80px;
   }
 
   /* green_box */
 
   .green_box {
-  background-color: hsl(158, 49%, 63%);
-  text-align: center;
-  padding: 50px 0 25px 0;
-  }
-
-  .heading-container {
-  color: #fff;
+    padding: 50px 0 25px 0;
   }
 
   .green_box_heading {
-  font-size: 24px;
-  margin: 20px 0 35px 0;
-  font-family: "Raleway",sans-serif;
+    margin: 20px 0 35px 0;
   }
-
+  
   /* content */
 
-  .content {
-  background-color: #f2f2f2;
-  text-align: center;
-  padding: 60px 0 70px 0;
-  }
-
   .content_img {
-  opacity: 0.7;
-  transition: 0.3s;
-  display: block;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
   }
 
   .content_img:nth-of-type(3n) {
-  margin-bottom: 80px;
+    margin-bottom: 80px;
   }
 
   .content_text {
-  color: #333;
-  font-size: 20px;
-  line-height: 30px;
-  margin-bottom: 40px;
+    margin-bottom: 40px;
   }
 
   .email_button {
-  text-decoration: none;
-  width: 120px;
-  display: block;
-  margin: 0 auto;
+    width: 120px;
+    display: block;
+    margin: 0 auto;
   }
 
   /* circle */
 
-  .circle_icon {
-  margin: 0 auto;
-  }
-
   .circle_icon_box {
-  margin-bottom: 88px;
+    margin-bottom: 88px;
   }
 
   .circle_icon_box:last-child {
-  margin-bottom: 0;
+    margin-bottom: 0;
   }
 
   /* sns */
 
   .sns {
-  background-color: #f2f2f2;
-  text-align: center;
-  padding: 50px 0;
+    padding: 50px 0;
   }
 
   .sns_icon {
-  color: #74cfae;
-  transition: 0.3s;
-  padding: 30px 0;
-  width: 100%;
+    padding: 30px 0;
+    width: 100%;
   }
 
 }
+
+
+
+/* ーーーーーーー全適応ーーーーーーー */
 
 .inner {
   margin: 0 auto;
@@ -429,11 +318,37 @@
   z-index: 1000;
 }
 
+.contact_button {
+  float: right;
+  font-size: 12px;
+  padding: 14px 12px;
+  background-color: #74cfae;
+  color: #fff;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.contact_button:hover {
+  color: #333;
+}
+
 /* title */
 
 .gray_title {
   font-size: 30px;
   color: #c0c0c0;
+}
+
+.green_title {
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #74cfae;
+  font-family: "Raleway",sans-serif;
+}
+
+.title {
+  background-color: #f2f2f2;
+  text-align: center;
 }
 
 /* green_box */
@@ -443,13 +358,44 @@
   line-height: 30px;
 }
 
+.green_box {
+  background-color: #74cfae;
+  text-align: center;
+}
+
+.heading-container {
+  color: #fff;
+}
+
+.green_box_heading {
+  font-size: 24px;
+  font-family: "Raleway",sans-serif;
+}
+
 /* content */
+
+.content {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 60px 0 70px 0;
+}
 
 .content_title {
   font-size: 24px;
   margin-bottom: 40px;
   color: #333;
   font-family: "Raleway",sans-serif;
+}
+
+.content_text {
+  color: #333;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.content_img {
+  opacity: 0.7;
+  transition: 0.3s;
 }
 
 .content_img:hover {
@@ -469,7 +415,15 @@
   transition: 0.3s;
 }
 
+.email_button {
+  text-decoration: none;
+}
+
 /* circle */
+
+.circle_icon {
+  margin: 0 auto;
+}
 
 .circle_box {
   background-color: #4e4e4e;
@@ -491,8 +445,18 @@
 
 /* sns */
 
+.sns {
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
 .fab,.fas {
   text-decoration: none;
+}
+
+.sns_icon {
+  color: #74cfae;
+  transition: 0.3s;
 }
 
 .sns_icon:hover {
